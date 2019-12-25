@@ -26,4 +26,11 @@ $(document).ready(function () {
             scrollTop: $('#menu4').offset().top - 56,
          }, 500);
     });
+
+    //offer按鈕動態
+    $('a[href="#buy"]').on('click', function () {
+        $('html,body').animate({
+            scrollTop: $('#buy').offset().top - 56,
+         }, 500);
+    });
 });
