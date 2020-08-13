@@ -5,17 +5,17 @@ $(document).ready(function () {
     });
     observer.observe();
     // 立即購買btn動態
-    $('.offerbtn, .offerbtn_m').click(function (e) { 
+    $('.offerbtn').click(function (e) { 
         e.preventDefault();
         $('html , body').animate({
-            scrollTop: $('#size').offset().top,
+            scrollTop: $('#lp_form').offset().top,
         },900);
     });
     // 立即訂購btn動態
     $('.buybtn').click(function (e) { 
         e.preventDefault();
         $('html , body').animate({
-            scrollTop: $('#size').offset().top,
+            scrollTop: $('#lp_form').offset().top,
         },900);
     });
 
