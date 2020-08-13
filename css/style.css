@@ -557,6 +557,9 @@ a:hover {
     text-align: center;
     padding:0;
 }
+.sns_btn ul{
+    padding:0;
+}
 .sns_btn ul li{
     display: inline-block;
     margin: 0 8px;
@@ -567,20 +570,11 @@ a:hover {
 }
 
 .buybtn{
-    width: 174px;
-    position: fixed;
-    right: 0;
-    bottom: 20px;
-    z-index: 99;
-}
-.buybtn img{
-    width: 100%; 
-    height: auto;
+    width: 45%;
 }
 
 @media screen and (max-width: 768px){
     .buybtn {
-        width: 28%;
-        max-width: 170px;
+        width: 100%;
     }
 }
