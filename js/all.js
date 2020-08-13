@@ -8,14 +8,14 @@ $(document).ready(function () {
     $('.offerbtn').click(function (e) { 
         e.preventDefault();
         $('html , body').animate({
-            scrollTop: $('#lp_form').offset().top,
+            scrollTop: $('#size').offset().top,
         },900);
     });
     // 立即訂購btn動態
     $('.buybtn').click(function (e) { 
         e.preventDefault();
         $('html , body').animate({
-            scrollTop: $('#lp_form').offset().top,
+            scrollTop: $('#size').offset().top,
         },900);
     });
 
